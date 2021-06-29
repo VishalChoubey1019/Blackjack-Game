@@ -30,10 +30,11 @@ p{
 
 button{
     text-align: center;
-    width: auto;
-    padding:5%;
-    padding-top: 0.5%;
-    padding-bottom: .5%;
+    width: 30%;
+    padding:1cm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+
     background-color: goldenrod;
     border-radius: 2mm;
     font-size: 225%;
@@ -41,23 +42,21 @@ button{
     font-weight: bolder;
 }
 #start{
-    margin-left: 38%;
+    margin-left: 36%;
     margin-right: 40%;
 
 }
 #newcard{
     text-align: center;
-    padding-right: 7.3%;
-    margin-left: 38%;
+    margin-left: 36%;
     margin-right: 40%;
-
     margin-top: 0.5%;
 }
 
 button:focus{
     text-align: center;
     border: 1px solid blue;
-    width: auto ;
+    width: 30%;
 }
 
 #rules{
@@ -100,4 +99,170 @@ button:focus{
     text-align: left;
     font-size: 150%;
     color: rgb(0, 0, 0);
+}
+/* 
+1066
+942 */
+@media screen and (max-width: 1066px) {
+    #start{
+        
+        margin-left: 36%;
+        width: 30%;
+        font-size: 150%;
+        padding:0.1cm
+
+    }
+    #newcard{
+        font-size: 150%;
+        padding:0.1cm
+    }
+
+  }
+
+@media screen and (max-width: 942px){
+
+    #newcard{
+        
+        margin-left: 36%;
+        width: 30%;
+        font-size: 150%;
+    }
+
+    h1{
+        font-size: 500%;
+    }
+    p{
+        text-align: center;
+        font-size: 190%;
+    }
+    #rules{
+        font-size:100%;
+        width: auto;
+    }
+    
+#ruleexit{
+    font-size: 20%;
+    width: auto;
+    padding: .1mm;
+    border: none;
+}
+
+#rulebox1{
+    text-align: left;
+    font-size:80%;
+    color: rgb(0, 0, 0);
+}
+#rulebox2{
+    text-align: left;
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+}
+#rulebox3{
+    text-align: left;
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+}
+#rulebox4{
+    text-align: left;
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+}
+}
+
+@media screen and (max-width: 621px){
+    #message{
+        font-size: 200%;
+    }
+    h1{
+        font-size: 400%
+    }
+}
+@media screen and (max-width: 718px){
+    #start{
+        margin-left: 35%;
+        width: 30%;
+        font-size: 100%;
+        padding:0.1cm
+
+    }
+    #newcard{
+        
+        margin-left: 35%;
+        width: 30%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+}
+
+@media screen and (max-width: 404px){
+
+    #start{
+        
+        margin-left: 30%;
+        width: 40%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+    #newcard{
+        
+        margin-left: 30%;
+        width: 40%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+}
+
+@media screen and (max-width: 307px)
+{
+    #start{
+        
+        margin-left: 26%;
+        width: 50%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+    #newcard{
+        
+        margin-left: 26%;
+        width: 50%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+    h1{
+        font-size: 300%;
+    }
+    #message{
+        font-size: 140%;
+    }
+    p{
+        font-size: 140%
+    }
+}
+
+@media screen and (max-width: 249px)
+{
+    #start{
+        
+        margin-left: 23%;
+        width: 60%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+    #newcard{
+        
+        margin-left: 23%;
+        width: 60%;
+        font-size: 100%;
+        padding:0.1cm
+    }
+    h1{
+        font-size: 250%;
+    }
+    #message{
+        font-size: 120%;
+    }
+    p{
+        font-size: 120%
+    }
+
 }
