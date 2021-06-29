@@ -1,0 +1,103 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+
+    color: goldenrod;
+    font-size: 600%;
+    font-weight: bold;
+
+}
+p{
+    margin-right: 1%;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 230%;
+    font-weight: bold;
+    color: white;
+}
+
+#message{
+    text-align: center;
+    font-size: 350%;
+    font-style: italic;
+}
+
+button{
+    text-align: center;
+    width: auto;
+    padding:5%;
+    padding-top: 0.5%;
+    padding-bottom: .5%;
+    background-color: goldenrod;
+    border-radius: 2mm;
+    font-size: 225%;
+    color: #016f32;
+    font-weight: bolder;
+}
+#start{
+    margin-left: 38%;
+    margin-right: 40%;
+
+}
+#newcard{
+    text-align: center;
+    padding-right: 7.3%;
+    margin-left: 38%;
+    margin-right: 40%;
+
+    margin-top: 0.5%;
+}
+
+button:focus{
+    text-align: center;
+    border: 1px solid blue;
+    width: auto ;
+}
+
+#rules{
+    font-size: 100%;
+    width: auto;
+    padding: 3mm;
+    background-color: crimson;
+    color: darkblue;
+    border-radius: 3mm;
+}
+#rules:focus{
+    border: 3px solid salmon;
+    width: auto;
+    font-size:100%;
+}
+
+#ruleexit{
+    font-size: 50%;
+    width: auto;
+    padding: .1mm;
+    border: none;
+}
+
+#rulebox1{
+    text-align: left;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+#rulebox2{
+    text-align: left;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+#rulebox3{
+    text-align: left;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+#rulebox4{
+    text-align: left;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
