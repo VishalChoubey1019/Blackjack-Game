@@ -1,7 +1,7 @@
 let cards = [2,3,4,5,6,7,8,9,10];
 let dice = [1,2,3,4,5,6];
 let sum;
-let card = (dice[Math.floor(Math.random() * dice.length)]) + 1;
+let card = (dice[Math.floor(Math.random() * dice.length)]);
 let card1,card2;
 let clicked = false;
 let ruleclick=true;
@@ -28,7 +28,8 @@ function startgame()
     playgame();
 }    
 function playgame()
-{
+{    
+
     document.getElementById("cards").textContent = "Cards: " + card1 + " and " + card2;
     document.getElementById("sum").textContent = "Sum: " + (sum);
 
@@ -49,36 +50,35 @@ function playgame()
         
         sum = card1+card2;
         sum-=card;
-        ends=true;
-        sum = 0;
+        ends = true;
+        begins = false;
     }
-    if(sum > 21)
+    if(sum > 21 && !ends)
     {    
         document.getElementById("message").textContent = "You're out of the game!";
         
+        if(sum>21)
         player.cash-=20;
         document.getElementById("player-details").textContent = player.name + ": $" + player.cash;
-        
-        ends=true;
-        sum=0;
+        begins = false;
+        ends = true
     }
 
-    if(sum==0)
-    document.getElementById("message").textContent = "Click on start game"; 
 
-
-    if(player.cash <= 0)
+    if(player.cash < 20)
     document.getElementById("message").textContent = "SAyOnArA LOL";
+
 
 }
 
 function newcard()
 {
+    
     if(begins && !ends)
     {
         document.getElementById("sum").textContent = "Sum: " + (sum);
         sum+=card;
-        card = (cards[Math.floor(Math.random() * cards.length)])%5;    
+        card = (dice[Math.floor(Math.random() * dice.length)]);    
         playgame();
     }
     else
