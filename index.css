@@ -59,6 +59,8 @@ button:focus{
     width: 30%;
 }
 
+
+
 #rules{
     font-size: 100%;
     width: auto;
@@ -73,12 +75,6 @@ button:focus{
     font-size:100%;
 }
 
-#ruleexit{
-    font-size: 50%;
-    width: auto;
-    padding: .1mm;
-    border: none;
-}
 
 #rulebox1{
     text-align: left;
@@ -92,10 +88,15 @@ button:focus{
 }
 #rulebox3{
     text-align: left;
-    font-size: 150%;
+    font-size: 180%;
     color: rgb(0, 0, 0);
 }
 #rulebox4{
+    text-align: left;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+#rulebox5{
     text-align: left;
     font-size: 150%;
     color: rgb(0, 0, 0);
@@ -114,8 +115,7 @@ button:focus{
     }
     #newcard{
         font-size: 150%;
-        padding:0.1cm;
-        margin-top: 1%;
+        padding:0.1cm
     }
 
   }
@@ -168,6 +168,11 @@ button:focus{
     font-size: 80%;
     color: rgb(0, 0, 0);
 }
+#rulebox5{
+    text-align: left;
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+}
 }
 
 @media screen and (max-width: 621px){
@@ -191,8 +196,7 @@ button:focus{
         margin-left: 35%;
         width: 30%;
         font-size: 100%;
-        padding:0.1cm;
-        margin-top: 1.5%;
+        padding:0.1cm
     }
 }
 
@@ -210,8 +214,7 @@ button:focus{
         margin-left: 30%;
         width: 40%;
         font-size: 100%;
-        padding:0.1cm;
-        margin-top: 4%;
+        padding:0.1cm
     }
 }
 
@@ -229,9 +232,7 @@ button:focus{
         margin-left: 26%;
         width: 50%;
         font-size: 100%;
-        padding:0.1cm;
-        margin-top: 4%;
-            
+        padding:0.1cm
     }
     h1{
         font-size: 300%;
@@ -258,8 +259,7 @@ button:focus{
         margin-left: 23%;
         width: 60%;
         font-size: 100%;
-        padding:0.1cm;
-        margin-top: 5%;
+        padding:0.1cm
     }
     h1{
         font-size: 250%;
