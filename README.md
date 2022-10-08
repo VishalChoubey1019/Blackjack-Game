@@ -6,5 +6,5 @@ This game is based on luck
 <br>
 To play this game click on the link above 
 <br>
-Add-ons:
+<b>Add-ons:</b>
 <br>Adding some transitions specially for the Rules
