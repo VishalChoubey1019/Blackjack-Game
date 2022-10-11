@@ -7,12 +7,13 @@ body{
 }
 
 h1{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
-    color: goldenrod;
+    color: #262525;
     font-size: 600%;
     font-weight: bold;
-    text-shadow: 4px 4px 6px #000000;
+    text-shadow: 4px 4px 2px #ffffff;
     
 
 }
@@ -42,12 +43,12 @@ button{
     background-color: goldenrod;
     border-radius: 2mm;
     font-size: 225%;
-    color: #016f32;
+    color: #ffffff;
     font-weight: bolder;
     box-shadow: 4px 4px 6px #000000;
 }
 #start{
-    background-color: #EB5972;
+    background-color: #262525;
     margin-left: 36%;
     margin-right: 40%;
     
@@ -58,6 +59,9 @@ button{
     margin-left: 36%;
     margin-right: 40%;
     margin-top: 0.5%;
+    background-color: #ffffff;
+    color: #262525;
+    
 }
 
 button:focus{
