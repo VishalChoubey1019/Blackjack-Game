@@ -1,4 +1,5 @@
 body{
+
     background-image: url('bg.jpg');
     background-size: cover;
     border: none;
@@ -11,6 +12,8 @@ h1{
     color: goldenrod;
     font-size: 600%;
     font-weight: bold;
+    text-shadow: 4px 4px 6px #000000;
+    
 
 }
 p{
@@ -20,6 +23,7 @@ p{
     font-size: 230%;
     font-weight: bold;
     color: white;
+    text-shadow: 4px 4px 6px #000000;
 }
 
 #message{
@@ -40,10 +44,13 @@ button{
     font-size: 225%;
     color: #016f32;
     font-weight: bolder;
+    box-shadow: 4px 4px 6px #000000;
 }
 #start{
+    background-color: #EB5972;
     margin-left: 36%;
     margin-right: 40%;
+    
 
 }
 #newcard{
