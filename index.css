@@ -10,10 +10,10 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
-    color: #262525;
+    color: #e49c00;
     font-size: 600%;
     font-weight: bold;
-    text-shadow: 4px 4px 2px #ffffff;
+    text-shadow: 4px 4px 2px #000000;
     
 
 }
@@ -51,31 +51,22 @@ button{
     background-color: #262525;
     margin-left: 36%;
     margin-right: 40%;
-    transition: 0.3s;
-}
+    
 
-#start:hover{
-    background-color: #494848;
 }
-
 #newcard{
     text-align: center;
     margin-left: 36%;
     margin-right: 40%;
     margin-top: 0.5%;
-    background-color: #ffffff;
+    background-color: #e49c00;
     color: #262525;
-    transition: 0.3s;
     
-}
-
-#newcard:hover{
-    background-color: #bbbbbb;
 }
 
 button:focus{
     text-align: center;
-    border: 1.1px solid blue;
+    border: 1px solid blue;
     width: 30%;
 }
 
@@ -85,20 +76,15 @@ button:focus{
     font-size: 100%;
     width: auto;
     padding: 3mm;
-    background-color: crimson;
-    color: darkblue;
+    background-color: #e49c00;
+    color: rgb(255, 255, 255);
     border-radius: 3mm;
-    transition: 0.2s;
+    text-shadow: 4px 4px 3px #000000;
 }
 #rules:focus{
     border: 3px solid salmon;
     width: auto;
     font-size:100%;
-}
-
-#rules:hover{
-    background-color: #ff0000;
-    color: #000000;
 }
 
 
