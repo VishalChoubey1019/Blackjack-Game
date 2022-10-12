@@ -51,9 +51,13 @@ button{
     background-color: #262525;
     margin-left: 36%;
     margin-right: 40%;
-    
-
+    transition: 0.3s;
 }
+
+#start:hover{
+    background-color: #494848;
+}
+
 #newcard{
     text-align: center;
     margin-left: 36%;
@@ -61,7 +65,12 @@ button{
     margin-top: 0.5%;
     background-color: #ffffff;
     color: #262525;
+    transition: 0.3s;
     
+}
+
+#newcard:hover{
+    background-color: #bbbbbb;
 }
 
 button:focus{
@@ -79,11 +88,17 @@ button:focus{
     background-color: crimson;
     color: darkblue;
     border-radius: 3mm;
+    transition: 0.2s;
 }
 #rules:focus{
     border: 3px solid salmon;
     width: auto;
     font-size:100%;
+}
+
+#rules:hover{
+    background-color: #ff0000;
+    color: #000000;
 }
 
 
