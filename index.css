@@ -3,17 +3,17 @@ body{
     background-image: url('bg.jpg');
     background-size: cover;
     border: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
-    color: #e49c00;
+    color: #000000;
     font-size: 600%;
     font-weight: bold;
-    text-shadow: 4px 4px 2px #000000;
+    text-shadow: 4px 4px 1px #ffffff;
     
 
 }
@@ -76,10 +76,10 @@ button:focus{
     font-size: 100%;
     width: auto;
     padding: 3mm;
-    background-color: #e49c00;
-    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
     border-radius: 3mm;
-    text-shadow: 4px 4px 3px #000000;
+    
 }
 #rules:focus{
     border: 3px solid salmon;
