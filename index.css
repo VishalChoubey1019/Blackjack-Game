@@ -10,10 +10,10 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
-    color: #000000;
+    color: #ffffff;
     font-size: 600%;
     font-weight: bold;
-    text-shadow: 4px 4px 1px #ffffff;
+    text-shadow: 6px 6px 1px #000000;
     
 
 }
@@ -23,8 +23,8 @@ p{
     text-align: center;
     font-size: 230%;
     font-weight: bold;
-    color: white;
-    text-shadow: 4px 4px 6px #000000;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px #ffffff;
 }
 
 #message{
@@ -59,7 +59,7 @@ button{
     margin-left: 36%;
     margin-right: 40%;
     margin-top: 0.5%;
-    background-color: #e49c00;
+    background-color: #ffffff;
     color: #262525;
     
 }
