@@ -8,11 +8,11 @@ let ruleclick=true;
 let begins= false, ends= false;
 
 let player = {
-    name: "Vis",
+    name: "Balance",
     cash: 100
 }
 
-document.getElementById("player-details").textContent = player.name + ": $" + player.cash;
+document.getElementById("player-details").textContent = player.name + ": 💰" + player.cash;
 
 
 function startgame()
@@ -46,7 +46,7 @@ function playgame()
         document.getElementById("sum").textContent = "Sum: " + (sum);
         
         player.cash+=5;
-        document.getElementById("player-details").textContent = player.name + ": $" + player.cash;
+        document.getElementById("player-details").textContent = player.name + ": 💰" + player.cash;
         
         sum = card1+card2;
         sum-=card;
@@ -59,7 +59,7 @@ function playgame()
         
         if(sum>21)
         player.cash-=20;
-        document.getElementById("player-details").textContent = player.name + ": $" + player.cash;
+        document.getElementById("player-details").textContent = player.name + ": 💰" + player.cash;
         begins = false;
         ends = true
     }
